@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Karen</string>
+
+    <string name="bottom_profile">پرفایل</string>
+    <string name="bottom_tour">تور ها</string>
+    <string name="bottom_contact">ارتباط با ما</string>
+    <string name="bottom_about">درباره ما</string>
+
+    <string name="lorem_ipsum">دریاچهٔ میانشه بر اثر زمین‌لرزه و رانش زمین و در پی آن بسته شدن مسیر آب چشمه‌ای که در کنار دریاچه قرار دارد، بوجود آمده‌است. هنگام کاهش آب، پدیدار شدن باقیمانده درخت‌هایی که در محل پیدایش دریاچه بوده‌اند منظره ویژه‌ای را ایجاد می‌کند.</string>
+
+
+    <string name="detail">
+تاریخ اجرا: 17 و 18 خرداد
+\n
+حرکت : پنجشنبه ۱۷ خرداد ساعت ۵ صبح.
+\n
+بازگشت: جمعه ۱۸ خرداد شب رشتیم
+\n
+محل حرکت : منظریه
+    </string>
+</resources>
