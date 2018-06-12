@@ -15,21 +15,14 @@ import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 
 public class AppController  extends Application {
 
-    public static final String TAG = AppController.class.getSimpleName();
+    public final static String TAG = AppController.class.getSimpleName();
 
 
-    public static final String BASE_URL = "http://iava.in/mes/app/index.php/api/";
-    public static final String ACTORS_URL = BASE_URL + "actor";
-    public static final String DIRECTORS_URL = BASE_URL + "director";
-    public static final String DECATE_URL = BASE_URL + "decade";
-
-    public static final String MOVIE_ACTORS_URL = BASE_URL + "tag/actor/";
-    public static final String MOVIE_DIRECTORS_URL = BASE_URL + "tag/director/";
-    public static final String MOVIE_DECATE_URL = BASE_URL + "tag/decade/";
+    public final static String BASE_URL = "http://iava.in/mes/app/index.php/api/";
+    public final static String ACTORS_URL = BASE_URL + "actor";
 
 
-    public static String ID_ACTORS = "";
-    public static String ID_DIRECTORS = "";
+    public final static String SAVE_LOGIN = "SAVE_LOGIN";
 
 
     private RequestQueue mRequestQueue;
