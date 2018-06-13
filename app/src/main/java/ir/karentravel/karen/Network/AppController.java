@@ -18,8 +18,14 @@ public class AppController  extends Application {
     public final static String TAG = AppController.class.getSimpleName();
 
 
-    public final static String BASE_URL = "http://iava.in/mes/app/index.php/api/";
-    public final static String ACTORS_URL = BASE_URL + "actor";
+    public final static String BASE_URL = "http://karentravel.ir/karen/index.php/api/";
+    public final static String ACTORS_URL = BASE_URL + "Auth/signin/";
+    public final static String ACTORS_URL = BASE_URL + "Auth/signup/";
+
+    public final static String ACTORS_URL = BASE_URL + "Users/";
+    public final static String ACTORS_URL = BASE_URL + "Users/detail/";
+    public final static String ACTORS_URL = BASE_URL + "Users/update/";
+    public final static String ACTORS_URL = BASE_URL + "Users/updatepass/";
 
 
     public final static String SAVE_LOGIN = "SAVE_LOGIN";

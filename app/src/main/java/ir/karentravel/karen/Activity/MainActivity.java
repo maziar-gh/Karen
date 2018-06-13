@@ -32,6 +32,7 @@ import ir.karentravel.karen.Network.AppController;
 import ir.karentravel.karen.R;
 import ir.karentravel.karen.Utils.AboutDialog;
 import ir.karentravel.karen.Utils.ContactDialog;
+import ir.karentravel.karen.Utils.EditProfDialog;
 import ir.karentravel.karen.Utils.PassDialog;
 import ir.karentravel.karen.Utils.SavePref;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
@@ -156,6 +157,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 PassDialog dialog = new PassDialog(MainActivity.this);
+                dialog.show();
+            }
+        });
+
+        tvEditprofile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                EditProfDialog dialog = new EditProfDialog(MainActivity.this);
                 dialog.show();
             }
         });
